@@ -31,17 +31,20 @@
 
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
-            <li class="header">{{ trans('adminlte_lang::message.header') }}</li>
+            <li class="header"> Menu </li>
             <!-- Optionally, you can add icons to the links -->
-            <li class="active"><a href="{{ url('home') }}"><i class='fa fa-link'></i> <span>{{ trans('adminlte_lang::message.home') }}</span></a></li>
-            <li><a href="#"><i class='fa fa-link'></i> <span>{{ trans('adminlte_lang::message.anotherlink') }}</span></a></li>
+            <li class="active"><a href="{{ url('home') }}"><i class='fa fa-home'></i> <span>Inicio</span></a></li>
+            <li class="active"><a href="{{ url('alumnos') }}"><i class='fa fa-user'></i> <span>Alumnos</span></a></li>
+            <li class="active"><a href="{{ url('empresas') }}"><i class='fa fa-building'></i> <span>Empresas</span></a></li>
+            <li class="active"><a href="{{ url('ofertas') }}"><i class='fa fa-bullhorn'></i> <span>Ofertas</span></a></li>
+            <!--<li><a href="#"><i class='fa fa-link'></i> <span></span></a></li>
             <li class="treeview">
-                <a href="#"><i class='fa fa-link'></i> <span>{{ trans('adminlte_lang::message.multilevel') }}</span> <i class="fa fa-angle-left pull-right"></i></a>
+                <a href="#"><i class='fa fa-link'></i> <span></span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
                     <li><a href="#">{{ trans('adminlte_lang::message.linklevel2') }}</a></li>
                     <li><a href="#">{{ trans('adminlte_lang::message.linklevel2') }}</a></li>
                 </ul>
-            </li>
+            </li>-->
         </ul><!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
