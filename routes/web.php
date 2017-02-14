@@ -28,3 +28,4 @@ Route::group(['middleware' => 'auth'], function () {
 Route::get('/alumnos', 'AlumnosController@Index');
 Route::get('/empresas', 'EmpresasController@Index');
 Route::get('/ofertas', 'OfertasController@Index');
+Route::get('/mails', 'MailsController@Index');
