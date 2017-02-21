@@ -9,7 +9,7 @@ class EmpresaController extends Controller
 {
     //
 	public function Empresa (){
-		$Empresa = Empresa::where('IdEmpresa', 1)->first();
+		$Empresa = Empresas::where('IdEmpresa', 1)->first();
 
 		return view('empresaform')->with('Empresa', $Empresa);
 	}
