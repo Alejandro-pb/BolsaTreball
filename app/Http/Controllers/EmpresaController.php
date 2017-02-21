@@ -15,7 +15,7 @@ class EmpresaController extends Controller
 	}
 
     protected function Actualizar(Request $empresa){
-    	$Empresa = Empresa::where('IdEmpresa', 1)->first();
+    	$Empresa = Empresas::where('IdEmpresa', 1)->first();
     	//$file = $empresa->file('ImagenEmpresa');
         //$nombreimagen = $file->getClientOriginalName();
         //\Storage::disk('local')->put($nombreimagen, \File::get($file));
