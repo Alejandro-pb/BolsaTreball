@@ -15,6 +15,7 @@
     <script src="{{ asset('/plugins/chartjs/Chart.min.js') }}" type="text/javascript"></script>
     <script src="{{ asset('/plugins/datatables/dataTables.bootstrap.min.js') }}" type="text/javascript"></script>
     <script src="{{ asset('/plugins/datatables/jquery.dataTables.min.js') }}" type="text/javascript"></script>
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
 
     <script>
         window.Laravel = {!! json_encode([
