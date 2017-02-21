@@ -177,6 +177,7 @@ return [
         // TSFI\Providers\BroadcastServiceProvider::class,
         TSFI\Providers\EventServiceProvider::class,
         TSFI\Providers\RouteServiceProvider::class,
+        Yajra\Datatables\DatatablesServiceProvider::class,
 
     ],
 
@@ -226,6 +227,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Datatable' => Yajra\Datatables\DatatablesServiceProvider::class,
 
     ],
 
