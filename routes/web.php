@@ -32,6 +32,15 @@ Route::group(['middleware' => 'auth'], function () {
 
 
 Route::get('/alumnos', 'AlumnosController@Index');
-Route::get('/empresas', 'EmpresasController@Index');
 Route::get('/ofertas', 'OfertasController@Index');
 Route::get('/mails', 'MailsController@Index');
+
+Route::group(['prefix' => 'empresas'], function () {
+
+  Route::get('/', 'EmpresasController@index');
+  Route::get('datatableEmpresas', 'EmpresasController@datatable');
+  Route::post('insertEmpresa', 'EmpresasController@insertEmpresa');
+  Route::get('deleteEmpresa/{id}', 'EmpresasController@deleteEmpresa');
+  Route::post('updateEmpresa', 'EmpresasController@updateEmpresa');
+
+});
