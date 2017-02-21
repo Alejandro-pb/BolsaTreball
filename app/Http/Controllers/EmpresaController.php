@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace TSFI\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Empresas;
-use App\Http\Requests\EmpresaRequest;
+use TSFI\Empresas;
+use TSFI\Http\Requests\EmpresaRequest;
 class EmpresaController extends Controller
 {
     //
