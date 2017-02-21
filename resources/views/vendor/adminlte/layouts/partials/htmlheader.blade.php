@@ -10,6 +10,12 @@
     <link href="{{ asset('/plugins/datatables/dataTables.bootstrap.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('/plugins/datatables/jquery.dataTables.min.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('/plugins/datatables/jquery.dataTables_themeroller.css') }}" rel="stylesheet" type="text/css" />
+    <script src="{{ asset('/js/classie.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/plugins/jQuery/jquery-3.1.1.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/plugins/chartjs/Chart.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/plugins/datatables/dataTables.bootstrap.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/plugins/datatables/jquery.dataTables.min.js') }}" type="text/javascript"></script>
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
 
     
 

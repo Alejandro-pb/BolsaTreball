@@ -4,6 +4,7 @@
 <!-- Laravel App -->
 <script src="{{ asset('/js/app.js') }}" type="text/javascript"></script>
 <script src="{{ asset('/js/classie.js') }}" type="text/javascript"></script>
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 <script src="{{ asset('/plugins/jQuery/jquery-2.1.1.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('/plugins/chartjs/Chart.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('/plugins/datatables/jquery.dataTables.min.js') }}" type="text/javascript"></script>
