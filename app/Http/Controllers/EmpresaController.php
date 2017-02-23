@@ -11,7 +11,7 @@ class EmpresaController extends Controller
 	public function Empresa (){
 		$Empresa = Empresas::where('IdEmpresa', 1)->first();
 
-		return view('empresaform')->with('Empresa', $Empresa);
+		return view('vendor.empresa')->with('Empresa', $Empresa);
 	}
 
     protected function Actualizar(Request $empresa){
