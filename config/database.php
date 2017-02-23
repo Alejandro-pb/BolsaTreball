@@ -41,11 +41,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => 's2aw29.sdslab.cat',
             'port' => env('DB_PORT', '3306'),
-            'database' => 'borsa',
-            'username' => 'root',
-            'password' => '',
+            'database' => 's2aw29_Prueba',
+            'username' => 's2aw29_root',
+            'password' => '12345aA',
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',

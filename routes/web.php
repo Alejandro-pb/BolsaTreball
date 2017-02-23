@@ -14,9 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-
-
+Route::get('/Empresa', 'EmpresaController@Empresa');
+Route::get('/Empresa/1/Actualizar', 'EmpresaController@Actualizar');
 Route::group(['middleware' => 'auth'], function () {
     //    Route::get('/link1', function ()    {
 //        // Uses Auth Middleware
